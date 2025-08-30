@@ -22,8 +22,8 @@ const CTASection: React.FC = () => {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            Ready to Transform Your
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-accent-400 to-secondary-400"> Digital Presence</span>?
+            Ready to Build Your Next
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-accent-400 to-secondary-400"> Software Solution</span>?
           </motion.h2>
           
           <motion.p 
@@ -33,7 +33,7 @@ const CTASection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Let's discuss how our innovative solutions can help you achieve your business goals.
+            Let's discuss your project requirements and how we can help bring your ideas to life.
           </motion.p>
           
           <motion.div

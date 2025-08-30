@@ -69,7 +69,7 @@ const ServiceOverview: React.FC<ServiceOverviewProps> = ({ service }) => {
         {/* Benefits */}
         <SectionHeading
           title="Key Benefits"
-          subtitle="How our enterprise digital transformation delivers measurable value"
+          subtitle="How our AI & machine learning solutions deliver measurable value to your business"
           centered
         />
         

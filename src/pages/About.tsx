@@ -25,15 +25,15 @@ const About: React.FC = () => {
               
               <div className="space-y-6 text-accent-gray">
                 <p className="text-lg">
-                  Founded in 2021, TechTransform has quickly established itself as India's leading tech strategy firm by consistently delivering measurable business outcomes through strategic technology implementation.
+                  Founded in 2021, Tartaria Tech has established itself as a reliable IT software development company, specializing in AI/ML, cross-platform development, full-stack solutions, and innovative product development.
                 </p>
                 
                 <p>
-                  Our team combines expertise from industry giants like Google, Amazon, and McKinsey with deep domain knowledge across manufacturing, finance, healthcare, and retail sectors. This unique blend of technical prowess and business acumen allows us to bridge the gap between technology potential and business results.
+                  Our team of experienced developers and engineers brings expertise in modern technologies and frameworks. We focus on delivering high-quality software solutions that meet our clients' specific requirements and business objectives.
                 </p>
                 
                 <p>
-                  Unlike traditional IT consultants who focus on lengthy implementations, our speed-first approach emphasizes rapid deployment and iterative improvement. We're not satisfied with marginal gains – we target transformative outcomes that fundamentally change how your business operates.
+                  We believe in agile development methodologies, continuous communication with clients, and delivering solutions that are scalable, maintainable, and future-ready. Our commitment to quality and client satisfaction drives everything we do.
                 </p>
               </div>
             </div>
@@ -42,7 +42,7 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-r from-accent-blue/20 to-accent-purple/20 rounded-lg blur-lg"></div>
                 <img
-                  src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="Our team"
                   className="relative rounded-lg shadow-2xl w-full"
                 />

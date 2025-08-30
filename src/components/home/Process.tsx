@@ -7,21 +7,21 @@ import SectionHeading from '../ui/SectionHeading';
 const steps = [
   {
     icon: <Search className="h-10 w-10 text-accent-blue" />,
-    title: 'Audit',
-    description: 'We thoroughly analyze your current technology stack, business processes, and pain points to identify optimization opportunities.',
-    highlights: ['Systems assessment', 'Process mapping', 'Data flow analysis', 'Bottleneck identification']
+    title: 'Analyze',
+    description: 'We analyze your requirements, current systems, and business objectives to design the optimal solution architecture.',
+    highlights: ['Requirements gathering', 'Technology assessment', 'Architecture planning', 'Risk analysis']
   },
   {
     icon: <Lightbulb className="h-10 w-10 text-accent-purple" />,
-    title: 'Build',
-    description: 'Our experts create a tailored technology strategy aligned with your business goals and backed by measurable KPIs.',
-    highlights: ['Custom solution architecture', 'Technology selection', 'ROI projections', 'Implementation roadmap']
+    title: 'Develop',
+    description: 'Our expert developers build robust, scalable solutions using cutting-edge technologies and best practices.',
+    highlights: ['Agile development', 'Code quality assurance', 'Continuous integration', 'Regular testing']
   },
   {
     icon: <Rocket className="h-10 w-10 text-accent-green" />,
     title: 'Deploy',
-    description: 'We execute the strategy with precision, implementing cutting-edge solutions and measuring results in real-time.',
-    highlights: ['Agile implementation', 'Continuous integration', 'Staff training', 'Performance monitoring']
+    description: 'We deploy your solution with comprehensive testing, training, and ongoing support for seamless operation.',
+    highlights: ['Production deployment', 'User training', 'Documentation', 'Ongoing support']
   }
 ];
 
@@ -31,7 +31,7 @@ const Process: React.FC = () => {
       <Container>
         <SectionHeading
           title="Our Process"
-          subtitle="We follow a proven three-step approach to transform your technology landscape"
+          subtitle="Our proven development methodology ensures quality delivery and client satisfaction"
           centered
         />
         

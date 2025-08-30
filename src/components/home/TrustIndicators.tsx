@@ -4,42 +4,42 @@ import Container from '../ui/Container';
 
 const logos = [
   {
-    name: 'Example Corp',
-    industry: 'Technology'
+    name: 'TechStart',
+    industry: 'Startup'
   },
   {
-    name: 'Acme Inc',
-    industry: 'Manufacturing'
+    name: 'HotelChain',
+    industry: 'Hospitality'
   },
   {
-    name: 'Global Finance',
-    industry: 'Banking'
+    name: 'FinanceApp',
+    industry: 'Fintech'
   },
   {
-    name: 'MediTech',
+    name: 'HealthTech',
     industry: 'Healthcare'
   },
   {
-    name: 'RetailOne',
-    industry: 'Retail'
+    name: 'EduPlatform',
+    industry: 'Education'
   }
 ];
 
 const stats = [
   {
-    value: '300+',
-    label: 'Projects Completed'
+    value: '150+',
+    label: 'Projects Delivered'
   },
   {
-    value: '40%',
-    label: 'Average Cost Reduction'
+    value: '50+',
+    label: 'Happy Clients'
   },
   {
-    value: '5x',
-    label: 'Deployment Speed'
+    value: '4+',
+    label: 'Years Experience'
   },
   {
-    value: '98%',
+    value: '95%',
     label: 'Client Satisfaction'
   }
 ];
@@ -77,7 +77,7 @@ const TrustIndicators: React.FC = () => {
         
         {/* Client logos */}
         <div className="text-center mb-8">
-          <p className="text-accent-gray text-sm uppercase tracking-wider">Trusted by industry leaders</p>
+          <p className="text-accent-gray text-sm uppercase tracking-wider">Trusted by growing businesses</p>
         </div>
         
         <motion.div

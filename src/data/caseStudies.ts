@@ -3,47 +3,47 @@ import { CaseStudy } from '../types';
 export const caseStudies: CaseStudy[] = [
   {
     id: 1,
-    title: 'Digital Transformation for Manufacturing Giant',
-    client: 'Industrial Innovations Ltd',
-    industry: 'Manufacturing',
-    challenge: 'Legacy systems causing 30% operational inefficiency and data silos preventing real-time decision making.',
-    solution: 'Implemented cloud-based ERP system with IoT integration for real-time monitoring and predictive maintenance.',
-    result: 'Achieved 40% reduction in downtime and 25% increase in production efficiency within 6 months.',
+    title: 'AI-Powered Hotel Management System',
+    client: 'Luxury Resort Chain',
+    industry: 'Hospitality',
+    challenge: 'Manual booking processes and poor guest experience management leading to operational inefficiencies.',
+    solution: 'Developed comprehensive PMS with AI-powered guest preferences and automated booking management.',
+    result: 'Increased booking efficiency by 60% and improved guest satisfaction scores significantly.',
     metrics: [
-      { label: 'Operational Efficiency', before: '70%', after: '95%' },
-      { label: 'Downtime', before: '12 hours/week', after: '3 hours/week' },
-      { label: 'Decision Latency', before: '48 hours', after: '15 minutes' }
+      { label: 'Booking Efficiency', before: '40%', after: '95%' },
+      { label: 'Guest Satisfaction', before: '3.2/5', after: '4.8/5' },
+      { label: 'Processing Time', before: '15 minutes', after: '2 minutes' }
     ],
-    image: 'https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   },
   {
     id: 2,
-    title: 'AI-Powered Customer Experience Transformation',
-    client: 'GlobalRetail Corp',
-    industry: 'Retail',
-    challenge: 'High customer churn (15%) and poor personalization leading to declining sales and brand loyalty.',
-    solution: 'Deployed AI-driven customer analytics platform with personalized recommendation engine and omnichannel experience.',
-    result: 'Reduced churn by 60% and increased average order value by 28% through personalized customer journeys.',
+    title: 'Cross-Platform E-Learning Application',
+    client: 'EduTech Solutions',
+    industry: 'Education',
+    challenge: 'Need for a unified learning platform across mobile and web with offline capabilities.',
+    solution: 'Built cross-platform application using React Native and Progressive Web App technologies.',
+    result: 'Achieved 80% user engagement increase and seamless learning experience across all devices.',
     metrics: [
-      { label: 'Customer Churn', before: '15%', after: '6%' },
-      { label: 'Avg. Order Value', before: '$75', after: '$96' },
-      { label: 'Customer Satisfaction', before: '3.2/5', after: '4.6/5' }
+      { label: 'User Engagement', before: '45%', after: '80%' },
+      { label: 'Platform Coverage', before: '2 platforms', after: '5 platforms' },
+      { label: 'Development Time', before: '12 months', after: '6 months' }
     ],
-    image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   },
   {
     id: 3,
-    title: 'Cloud Migration for Financial Services',
-    client: 'Secure Financial Solutions',
-    industry: 'Finance',
-    challenge: 'High infrastructure costs and scalability issues preventing rapid product development and market entry.',
-    solution: 'End-to-end cloud migration with microservices architecture and CI/CD pipeline implementation.',
-    result: 'Reduced infrastructure costs by 40% and accelerated time-to-market for new features by 70%.',
+    title: 'Full-Stack E-Commerce Platform',
+    client: 'RetailTech Startup',
+    industry: 'E-Commerce',
+    challenge: 'Building a scalable e-commerce platform with real-time inventory and payment processing.',
+    solution: 'Developed full-stack solution with React frontend, Node.js backend, and cloud infrastructure.',
+    result: 'Successfully launched platform handling 10,000+ concurrent users with 99.9% uptime.',
     metrics: [
-      { label: 'Infrastructure Cost', before: '$1.2M/year', after: '$720K/year' },
-      { label: 'Deployment Frequency', before: 'Monthly', after: 'Daily' },
-      { label: 'Time-to-Market', before: '6 months', after: '6 weeks' }
+      { label: 'Concurrent Users', before: '500', after: '10,000+' },
+      { label: 'System Uptime', before: '95%', after: '99.9%' },
+      { label: 'Load Time', before: '5 seconds', after: '1.2 seconds' }
     ],
-    image: 'https://images.pexels.com/photos/7567486/pexels-photo-7567486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   }
 ];

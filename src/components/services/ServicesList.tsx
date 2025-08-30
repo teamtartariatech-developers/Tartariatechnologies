@@ -56,102 +56,72 @@ const ServiceCard: React.FC<ServiceProps> = ({ icon, title, description, feature
 const ServicesList: React.FC = () => {
   const services = [
     {
-      icon: <Layout size={28} />,
-      title: "Website Development",
-      description: "Custom websites tailored to your business goals with responsive design and SEO optimization.",
+      icon: <LineChart size={28} />,
+      title: "AI & Machine Learning",
+      description: "Intelligent solutions powered by advanced AI algorithms and machine learning models.",
       features: [
-        "Responsive websites that work on all devices",
-        "Custom designs that match your brand identity",
-        "SEO optimization for better visibility",
-        "Fast loading and performance optimized"
-      ]
-    },
-    {
-      icon: <RefreshCw size={28} />,
-      title: "Website Maintenance",
-      description: "Keep your website secure, up-to-date, and performing optimally with our maintenance services.",
-      features: [
-        "Regular security updates and patches",
-        "Performance monitoring and optimization",
-        "Content updates and management",
-        "Technical support and troubleshooting"
+        "Custom machine learning models",
+        "Natural language processing solutions",
+        "Computer vision and image recognition",
+        "Predictive analytics and data insights"
       ]
     },
     {
       icon: <Smartphone size={28} />,
-      title: "Mobile Applications",
-      description: "Native and cross-platform mobile apps with intuitive interfaces and powerful functionality.",
-      features: [
-        "Native iOS and Android development",
-        "Cross-platform solutions for broader reach",
-        "Intuitive user interfaces with modern design",
-        "Integration with device features and APIs"
-      ]
-    },
-    {
-      icon: <LineChart size={28} />,
-      title: "AI Solutions",
-      description: "Leverage the power of AI to optimize operations, analyze data, and deliver personalized experiences.",
-      features: [
-        "Machine learning models tailored to your needs",
-        "Natural language processing for better communication",
-        "Computer vision solutions for image analysis",
-        "Predictive analytics for data-driven decisions"
-      ]
-    },
-    {
-      icon: <PenTool size={28} />,
-      title: "UI/UX Design",
-      description: "Human-centered design that delights users while achieving your business objectives.",
-      features: [
-        "User research and persona development",
-        "Wireframing and prototyping",
-        "Interactive designs with modern aesthetics",
-        "Usability testing and iteration"
-      ]
-    },
-    {
-      icon: <Monitor size={28} />,
       title: "Cross-Platform Development",
-      description: "Build once, deploy everywhere with efficient cross-platform development solutions.",
+      description: "Build once, deploy everywhere with modern cross-platform technologies.",
       features: [
-        "Single codebase for multiple platforms",
-        "Reduced development time and costs",
-        "Consistent user experience across platforms",
-        "Easier maintenance and updates"
-      ]
-    },
-    {
-      icon: <Database size={28} />,
-      title: "Database Solutions",
-      description: "Robust database architectures that securely store and efficiently manage your data.",
-      features: [
-        "Database design and optimization",
-        "Data migration and integration",
-        "Performance tuning and scaling",
-        "Backup and recovery solutions"
-      ]
-    },
-    {
-      icon: <Shield size={28} />,
-      title: "Cybersecurity Services",
-      description: "Protect your digital assets with comprehensive security assessments and solutions.",
-      features: [
-        "Security audits and vulnerability assessments",
-        "Secure coding practices implementation",
-        "Authentication and authorization systems",
-        "Data encryption and protection"
+        "React Native mobile applications",
+        "Flutter cross-platform solutions",
+        "Progressive Web Applications (PWA)",
+        "Desktop applications with Electron"
       ]
     },
     {
       icon: <Code size={28} />,
-      title: "Custom Software Development",
-      description: "Tailored software solutions that address your specific business challenges and requirements.",
+      title: "Full-Stack Development",
+      description: "Complete web application development from frontend to backend infrastructure.",
       features: [
-        "Requirements analysis and planning",
-        "Agile development methodology",
-        "Regular updates and transparent communication",
-        "Thorough testing and quality assurance"
+        "Modern frontend frameworks (React, Vue, Angular)",
+        "Backend development (Node.js, Python, Java)",
+        "Database design and optimization",
+        "Cloud deployment and DevOps"
+      ]
+    },
+    {
+      icon: <Layout size={28} />,
+      title: "Product Development",
+      description: "End-to-end product development from concept to market-ready solutions.",
+      features: [
+        "Product strategy and roadmap planning",
+        "MVP development and rapid prototyping",
+        "User experience design and testing",
+        "Scalable architecture and deployment"
+      ]
+    },
+  ];
+
+  const products = [
+    {
+      icon: <Monitor size={28} />,
+      title: "Property Management System (PMS)",
+      description: "Comprehensive hotel and resort management solution with booking, billing, and operations management.",
+      features: [
+        "Room booking and reservation management",
+        "Guest check-in/check-out automation",
+        "Billing and payment processing",
+        "Housekeeping and maintenance tracking"
+      ]
+    },
+    {
+      icon: <PenTool size={28} />,
+      title: "AI LLM Chatbot",
+      description: "Intelligent conversational AI powered by large language models for customer support and engagement.",
+      features: [
+        "Natural language understanding and responses",
+        "Multi-language support and translation",
+        "Integration with existing systems and databases",
+        "24/7 automated customer support"
       ]
     }
   ];
@@ -159,6 +129,7 @@ const ServicesList: React.FC = () => {
   return (
     <Section>
       <Container>
+        {/* Services Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <ServiceCard 
@@ -168,6 +139,41 @@ const ServicesList: React.FC = () => {
               description={service.description}
               features={service.features}
               index={index}
+            Professional software development services tailored to your business needs
+          ))}
+        </div>
+        
+        {/* Products Section */}
+        <div className="text-center mb-16">
+          <motion.h2 
+            className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Our <span className="text-primary-600">Products</span>
+          </motion.h2>
+          <motion.p 
+            className="text-xl text-gray-600 max-w-2xl mx-auto"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            Ready-to-deploy software products designed for specific industry needs
+          </motion.p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {products.map((product, index) => (
+            <ServiceCard 
+              key={`product-${index}`}
+              icon={product.icon}
+              title={product.title}
+              description={product.description}
+              features={product.features}
+              index={index + services.length}
             />
           ))}
         </div>
@@ -176,4 +182,4 @@ const ServicesList: React.FC = () => {
   );
 };
 
-export default ServicesList;
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">

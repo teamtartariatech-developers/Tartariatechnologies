@@ -7,23 +7,23 @@ import SectionHeading from '../ui/SectionHeading';
 const painPoints = [
   {
     icon: <Clock className="h-8 w-8 text-accent-blue" />,
-    title: 'Slow Time-to-Market',
-    description: 'Traditional development cycles taking 6-12 months, causing missed market opportunities and competitive disadvantage.'
+    title: 'Outdated Technology Stack',
+    description: 'Legacy systems and outdated technologies limiting business growth and operational efficiency.'
   },
   {
     icon: <DollarSign className="h-8 w-8 text-accent-blue" />,
-    title: 'Rising Tech Costs',
-    description: 'Inefficient infrastructure and legacy systems draining 30-40% more resources than modern cloud alternatives.'
+    title: 'High Development Costs',
+    description: 'Expensive development cycles and maintenance costs due to inefficient processes and technologies.'
   },
   {
     icon: <FileQuestion className="h-8 w-8 text-accent-blue" />,
-    title: 'Digital Strategy Gaps',
-    description: 'Disjointed technology investments without clear ROI metrics or alignment with business objectives.'
+    title: 'Lack of AI Integration',
+    description: 'Missing opportunities to leverage AI and machine learning for business automation and insights.'
   },
   {
     icon: <AlertTriangle className="h-8 w-8 text-accent-blue" />,
-    title: 'Tech Talent Shortage',
-    description: 'Difficulty finding and retaining specialized technical talent for implementation and maintenance.'
+    title: 'Platform Fragmentation',
+    description: 'Separate development for different platforms leading to increased costs and maintenance overhead.'
   }
 ];
 
@@ -47,8 +47,8 @@ const PainPoints: React.FC = () => {
     <section className="bg-primary-black py-20">
       <Container>
         <SectionHeading
-          title="Common Tech Challenges"
-          subtitle="We solve these critical pain points for businesses looking to accelerate their digital transformation"
+          title="Technology Challenges"
+          subtitle="Common software development and technology challenges we help businesses overcome"
           centered
         />
         

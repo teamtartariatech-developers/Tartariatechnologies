@@ -36,35 +36,25 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description, ind
 const ServicesPreview: React.FC = () => {
   const services = [
     {
-      icon: <Layout size={28} />,
-      title: "Website Development",
-      description: "Custom websites tailored to your business goals with responsive design and SEO optimization."
-    },
-    {
       icon: <LineChart size={28} />,
-      title: "AI Solutions",
-      description: "Leverage the power of AI to optimize operations, analyze data, and deliver personalized experiences."
+      title: "AI & Machine Learning",
+      description: "Intelligent solutions powered by advanced AI algorithms and machine learning models for automation and insights."
     },
     {
       icon: <Smartphone size={28} />,
-      title: "Mobile Applications",
-      description: "Native and cross-platform mobile apps with intuitive interfaces and powerful functionality."
-    },
-    {
-      icon: <PenTool size={28} />,
-      title: "UI/UX Design",
-      description: "Human-centered design that delights users while achieving your business objectives."
-    },
-    {
-      icon: <Monitor size={28} />,
       title: "Cross-Platform Development",
-      description: "Build once, deploy everywhere with efficient cross-platform development solutions."
+      description: "Build once, deploy everywhere with React Native, Flutter, and other modern cross-platform technologies."
     },
     {
       icon: <Code size={28} />,
-      title: "Website Maintenance",
-      description: "Keep your website secure, up-to-date, and performing optimally with our maintenance services."
-    }
+      title: "Full-Stack Development",
+      description: "End-to-end web applications using modern frameworks like React, Node.js, Python, and cloud technologies."
+    },
+    {
+      icon: <Layout size={28} />,
+      title: "Product Development",
+      description: "Complete product lifecycle management from ideation to deployment with agile methodologies."
+    },
   ];
 
   return (

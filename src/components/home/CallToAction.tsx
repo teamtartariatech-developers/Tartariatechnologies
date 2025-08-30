@@ -27,10 +27,10 @@ const CallToAction: React.FC = () => {
           <div className="relative z-10 flex flex-col md:flex-row md:items-center md:justify-between">
             <div className="mb-8 md:mb-0 md:mr-8 md:max-w-2xl">
               <h2 className="font-heading text-4xl md:text-5xl text-primary-silver mb-4">
-                Ready to <span className="text-accent-blue">Accelerate</span> Your Tech Transformation?
+                Ready to <span className="text-accent-blue">Build</span> Your Next Software Solution?
               </h2>
               <p className="text-lg text-accent-gray">
-                Book a free strategy session with our experts and discover how we can help you achieve measurable results in record time.
+                Schedule a free consultation with our development team and discover how we can bring your software ideas to life.
               </p>
             </div>
             <Link to="/contact">

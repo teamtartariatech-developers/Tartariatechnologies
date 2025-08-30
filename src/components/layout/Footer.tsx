@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               </span>
             </Link>
             <p className="text-accent-gray mb-4">
-              India's fastest tech transformer, providing strategic technology solutions to drive your business forward.
+              Professional IT software development company specializing in AI/ML, cross-platform, full-stack development, and innovative products.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-primary-silver hover:text-accent-blue transition-colors">
@@ -83,27 +83,27 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>
                 <Link to="/services" className="text-accent-gray hover:text-accent-blue transition-colors">
-                  Enterprise Digital Transformation
+                  AI & Machine Learning
                 </Link>
               </li>
               <li>
                 <Link to="/services" className="text-accent-gray hover:text-accent-blue transition-colors">
-                  Cloud Migration
+                  Cross-Platform Development
                 </Link>
               </li>
               <li>
                 <Link to="/services" className="text-accent-gray hover:text-accent-blue transition-colors">
-                  AI Implementation
+                  Full-Stack Development
                 </Link>
               </li>
               <li>
                 <Link to="/services" className="text-accent-gray hover:text-accent-blue transition-colors">
-                  Process Automation
+                  Product Development
                 </Link>
               </li>
               <li>
                 <Link to="/services" className="text-accent-gray hover:text-accent-blue transition-colors">
-                  Custom Web Applications
+                  PMS & AI Chatbot Products
                 </Link>
               </li>
             </ul>

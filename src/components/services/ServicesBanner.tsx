@@ -37,8 +37,8 @@ const ServicesBanner: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Comprehensive software solutions tailored to your business needs. 
-            From web development to AI integration, we have the expertise to transform your digital presence.
+            Professional software development services and innovative products. 
+            From AI/ML solutions to cross-platform applications, we deliver cutting-edge technology solutions.
           </motion.p>
         </div>
       </Container>

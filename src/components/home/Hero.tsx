@@ -24,8 +24,8 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl uppercase tracking-wider text-primary-silver mb-6">
-              India's <span className="text-accent-blue">Fastest</span><br />
-              Tech <span className="text-accent-green">Transformer</span>
+              Leading <span className="text-accent-blue">IT</span><br />
+              Software <span className="text-accent-green">Solutions</span>
             </h1>
           </motion.div>
           
@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl text-accent-gray mb-8"
           >
-            We transform businesses through strategic technology implementation with measurable results in record time.
+            We deliver cutting-edge software solutions through AI/ML, Cross-platform development, Full-stack engineering, and innovative Product Development.
           </motion.p>
           
           <motion.div
